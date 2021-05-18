@@ -1,0 +1,51 @@
+{
+    "configVersion": 1,
+    "appIdentifier": "com.mobileapp.mobile",
+    "appName": "MobileApp",
+    "bundleName": {
+        "main": "MobileApp",
+        "dev": "MobileAppDev"
+    },
+    "deviceTarget": {
+        "phone": true,
+        "tablet": false
+    },
+    "orientation": {
+        "portrait": true,
+        "landscape": true
+    },
+    "capabilities": {
+        "deepLink": {
+            "value": "",
+            "enabled": false
+        },
+        "maps": {
+            "value": "88471f82-0bf2-454e-8615-fcb389991cd7",
+            "enabled": true
+        },
+        "mapsIos": {
+            "value": {
+                "purpose": "To use that feature the app needs access to your location."
+            },
+            "enabled": false
+        },
+        "pushNotifications": {
+            "enabled": false
+        },
+        "crashlytics": {
+            "enabled": false
+        },
+        "firebaseAndroid": {
+            "enabled": false
+        },
+        "firebaseIos": {
+            "enabled": false
+        },
+        "localNotifications": {
+            "enabled": false
+        },
+        "appCenterOTA": {
+            "enabled": false
+        }
+    }
+}
